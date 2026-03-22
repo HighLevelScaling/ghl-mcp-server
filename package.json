@@ -1,0 +1,49 @@
+{
+  "name": "ghl-mcp-server",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "bin": {
+    "ghl-mcp-server": "dist/index.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "gohighlevel",
+    "highlevel",
+    "crm",
+    "claude",
+    "claude-desktop",
+    "ai",
+    "automation",
+    "windsorai",
+    "analytics"
+  ],
+  "author": "HighLevelScaling",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HighLevelScaling/ghl-mcp-server"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT",
+  "description": "GoHighLevel MCP Server for Claude Desktop — Connects Claude to GoHighLevel CRM with 80+ tools. Includes optional WindsorAI analytics integration.",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "node-fetch": "^2.7.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/node-fetch": "^2.6.13",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
