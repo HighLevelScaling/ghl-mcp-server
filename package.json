@@ -36,7 +36,7 @@
   "license": "MIT",
   "description": "GoHighLevel MCP Server for Claude Desktop — Connects Claude to GoHighLevel CRM with 80+ tools. Includes optional WindsorAI analytics integration.",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.27.1",
+    "@modelcontextprotocol/sdk": "^1.31.0",
     "node-fetch": "^2.7.0",
     "zod": "^4.3.6"
   },
